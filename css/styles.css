@@ -343,7 +343,10 @@ background: linear-gradient(rgba(86, 225, 243, 0.918),rgb(3, 60, 94));
   color:rgb(8, 8, 8);
  
 }
-.proj-details h3{
+.proj-details h3:hover,
+.proj-details a:hover,
+.proj-details p:hover{
+  color:rgba(255, 255, 255, 0.692);
 }
 
 
