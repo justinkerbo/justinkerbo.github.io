@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Justin Kerbo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <script src='node_modules/jquery/dist/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js'></script>
+</head>
+
+<body>
+  <div class="portfolio" id='portfolio'>
+    <header>
+      <nav>
+        <div class="logo"><a href='index.html'>Justin Kerbo</a></div>
+        <div class='hamburger'><a href='#' onclick="show()">
+            Menu
+          </a>
+        </div>
+        <div class="nav-open">
+          <div class="nav-contact">
+            <h3>Contact</h3>
+            <p>727-365-4972</p>
+          </div>
+          <div class="nav-links">
+            <a class='nav-link' href='index.html'>Home</a>
+            <a class='nav-link' href='about.html'>About Me</a>
+            <a class='nav-link' href='about.html'>Projects</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <main>
+        <section class="page index" id='index'>
+          <div class="details">
+            <h1>Justin Kerbo</h1>
+            <h2>Web Developer</h2>
+            <p>My Portfolio</p>
+          </div>
+          <div class="hero">
+            <a href='./about.html'>
+              <img class='model-left' src='images/left.jpg' />
+              <img class='model-right' src='images/right.jpg' /></a>
+          </div>
+        </section>
+
+        <section class="page summary">
+          <div class="summary-header">
+            <h1>Certifications</h1>
+            <ul class='certsli'>
+              <li><a href='index.html'><img src="images/MTA.png" id="MTA" alt="MTA Certification"></a></li>
+              <li><a href='index.html'><img src="images/jscript.png" id="Javascript" alt="MTA Javascript"></a></li>
+              <li><a href='index.html'><img src="images/illus.png" id="illustrator"
+                    alt="Adobe Illustrator Certification"></li>
+              <li><a href='index.html'><img src="images/MOS.png" id="MOS" alt="MOS Office Certification"></a></li>
+              <li><a href='index.html'><img src="images/PP.png" id="PP" alt="Power Point Certification"></a></li>
+            </ul>
+          </div>
+          <div class="summary-frameworks" id='summary'>
+            <h1>Frameworks and Languages</h1>
+            <ul class='certsli'>
+              <li><a href='index.html'><img src='images/HTML.png'></a></li>
+              <li><a href='index.html'><img src='images/css.png'></a></li>
+              <li><a href='index.html'><img src='images/js.png'></a></li>
+              <li><a href='index.html'><img src='images/react.png'></a></li>
+              <li><a href='index.html'><img src='images/wp.png'></a></li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="pages">
+
+          <div class="page-1"></div>
+          <h3>01</h3>
+          <svg class='slide slide-button active' href='#portfolio' xmlns="http://www.w3.org/2000/svg" width="12"
+            height="12" viewBox="0 0 24 24" style="fill: white">
+            <a id='dot-link' href='#portfolio' color='white'>
+              <circle cx=" 12" cy="12" r="12" /></svg>
+          </a>
+
+          <div class="page-2"></div>
+          <h3>02</h3>
+          <svg class='slide slide-button1 ' xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+            viewBox="0 0 24 24" style="fill: white">
+            <a id='dot-link1' href='#summary' color='white'>
+              <circle cx="12" cy="12" r="12" /></svg>
+          </a>
+        </div>
+        <!--pages-->
+        <footer>
+          <div class="footer-cr">
+            <p>&copy; Copyright <br>Justin Kerbo 2019</p>
+          </div>
+          <div class="extras">
+            <p><a href="htttps://www.devbo.co">Devbo.co</a></p>
+            <p><a href="https://www.linkedin.com/in/justinkerbo/">LinkedIn</a></p>
+          </div>
+        </footer>
+      </main>
+    </header>
+  </div>
+  <!--portfolio-->
+
+
+
+  <script src='./script/app.js'></script>
+
+
+</body>
+
+</html>
